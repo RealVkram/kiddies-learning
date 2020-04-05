@@ -3,4 +3,4 @@ const firstHandler = () => {
   audioA.play();
 };
 const letterA = document.getElementById("letterA");
-letterA.addEventListener("mouseover", firstHandler);
+letterA.addEventListener("click", firstHandler);
